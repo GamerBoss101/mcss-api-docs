@@ -1,0 +1,11 @@
+@font-face {
+    src: url(/fonts/FiraCode-Regular.ttf);
+    font-family: 'Fira Code';
+    font-weight: normal;
+}
+
+
+.shiki code,
+code {
+  font-family: 'Fira Code', sans-serif !important;
+}
