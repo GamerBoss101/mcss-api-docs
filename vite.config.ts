@@ -17,6 +17,7 @@ export default defineConfig({
                 sidebar,
                 logo: "https://avatars.githubusercontent.com/u/105963300?s=200&v=4",
                 github: 'https://github.com/mcserversoft-community',
+                discord: 'https://discord.com/invite/DEn89PB',
                 editLink: 'https://github.com/mcserversoft-community/mcss-api-docs/tree/main/src/routes/:route',
                 pwa,
                 themeColor: {
@@ -28,8 +29,8 @@ export default defineConfig({
                     }
                 },
                 preBuildIconifyIcons: {
-                    'vscode-icons': ['file-type-svelte', 'file-type-markdown', 'file-type-vite'],
-                    'logos': ['typescript-icon', 'svelte-kit'],
+                    'vscode-icons': ["file-type-js-official", "file-type-java-official"],
+                    'logos': ['typescript-icon', 'svelte-kit', 'java'],
                     'emojione': ['artist-palette'],
                     'ph': ['smiley', 'layout-duotone', 'code-bold'],
                     'noto': ['package'],

@@ -7,7 +7,7 @@ export default {
             collapsed: false,
             items: [
                 {
-                    title: 'Overview of MCSS-JS',
+                    title: 'Overview',
                     to: '/mcss-js/introduction/overview'
                 },
                 {
@@ -24,7 +24,7 @@ export default {
             title: 'Client',
             to: '/mcss-js/client',
             collapsible: true,
-            collapsed: false,
+            collapsed: true,
             items: [
                 {
                     title: 'Methods',
@@ -44,7 +44,7 @@ export default {
             title: 'Users',
             to: '/mcss-js/users',
             collapsible: true,
-            collapsed: false,
+            collapsed: true,
             items: [
                 {
                     title: 'Methods',
@@ -64,7 +64,7 @@ export default {
             title: 'Servers',
             to: '/mcss-js/servers',
             collapsible: true,
-            collapsed: false,
+            collapsed: true,
             items: [
                 {
                     title: 'Methods',
@@ -84,7 +84,7 @@ export default {
             title: 'Scheduler',
             to: '/mcss-js/scheduler',
             collapsible: true,
-            collapsed: false,
+            collapsed: true,
             items: [
                 {
                     title: 'Methods',
@@ -100,7 +100,7 @@ export default {
             title: 'Backup',
             to: '/mcss-js/backups',
             collapsible: true,
-            collapsed: false,
+            collapsed: true,
             items: [
                 {
                     title: 'Methods',

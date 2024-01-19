@@ -8,9 +8,12 @@ title: MCSS JS API Library
 ![GitHub issues](https://img.shields.io/github/issues/mcserversoft-community/mcss-api-js)
 
 This is the JS MCSS API Library. Made by the community, for the community. ( With ❤️ )<br>
-Want to start using the library? Check out the [Quick Start](/mcss-js/introduction/quickstart)!
+Want to start using the library?<br>
+Check out the [Quick Start](/mcss-js/introduction/quickstart) !
 
 ## Information
+
+### [NPM Package](https://www.npmjs.com/package/@mcserversoft/mcss-api)
 
 ### [MC Server Soft Website](https://www.mcserversoft.com)
 

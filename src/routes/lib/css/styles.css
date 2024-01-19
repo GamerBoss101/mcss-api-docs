@@ -1,11 +1,24 @@
 @font-face {
-    src: url(/fonts/FiraCode-Regular.ttf);
-    font-family: 'Fira Code';
-    font-weight: normal;
+	src: url(/fonts/Montserrat-Regular.ttf);
+	font-family: 'Montserrat';
+	font-weight: normal;
+}
+
+@font-face {
+	src: url(/fonts/JetBrainsMono-Regular.ttf);
+	font-family: 'mono';
+	font-weight: normal;
 }
 
 
 .shiki code,
 code {
-  font-family: 'Fira Code', sans-serif !important;
+	font-style: normal !important;
+	font-weight: 300;
+	font-family: 'mono', sans-serif !important;
+	font-size: 16px !important;
+}
+
+.colors {
+	color: rgb(72, 130, 255);
 }

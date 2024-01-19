@@ -13,10 +13,11 @@ Depend on what package manager you are using
 ```js
 const mcss = require('@mcserversoft/mcss-api');
 
+let key = "<apiKey>"; // Your API key
 let port = 80; // The port of your server
 let https = true; // If you are using https or not
 
-const client = mcss.Client("<ip>", port, "<apiKey>", https);
+const client = mcss.Client("<ip>", port, key, https);
 
 (async () => {
     let servers = await client.getServers();
@@ -24,6 +25,5 @@ const client = mcss.Client("<ip>", port, "<apiKey>", https);
     servers.forEach(server => {
         console.log(server.name);
     });
-    
 })();
 ```

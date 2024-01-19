@@ -1,5 +1,5 @@
 {
-	"name": "sveltedocs",
+	"name": "mcss-api-docs",
 	"version": "0.0.1",
 	"type": "module",
 	"private": true,
@@ -9,17 +9,19 @@
 		"preview": "vite preview"
 	},
 	"devDependencies": {
+		"@iconify/svelte": "^3.1.6",
 		"@sveltejs/adapter-vercel": "^3.1.0",
-		"@sveltejs/kit": "^1.27.6",
+		"@sveltejs/kit": "^1.30.3",
 		"@sveltepress/vite": "^0.27.1",
-		"@types/node": "^20.10.0",
+		"@types/node": "^20.11.4",
 		"@vercel/analytics": "^1.1.1",
-		"svelte": "^4.2.7",
-		"svelte-check": "^3.6.2",
-		"vite": "^4.5.0",
+		"sass": "^1.70.0",
+		"svelte": "^4.2.8",
+		"svelte-check": "^3.6.3",
+		"vite": "^4.5.1",
 		"workbox-window": "^7.0.0"
 	},
 	"dependencies": {
-		"@sveltepress/theme-default": "^1.21.1"
+		"@sveltepress/theme-default": "^1.22.3"
 	}
 }
