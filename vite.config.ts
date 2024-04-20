@@ -42,10 +42,17 @@ export default defineConfig({
                 }
             }),
             siteConfig: {
-                title: 'MCServerSoft Docs',
-                description: 'MCSS Community Documentation',
+                title: 'MC Server Soft Community',
+                description: 'API Documentation',
             },
             addInspect: true,
         }),
     ],
+    server: {
+        port: 5000,
+        strictPort: true,
+        hmr: {
+            port: 5000,
+        }
+    }
 });

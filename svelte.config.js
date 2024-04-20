@@ -11,7 +11,7 @@ const config = {
     kit: {
         adapter: adapter(),
         files: { 
-            serviceWorker: SERVICE_WORKER_PATH, 
+            // serviceWorker: SERVICE_WORKER_PATH, 
         }
     }
 };

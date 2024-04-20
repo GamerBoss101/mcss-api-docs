@@ -62,8 +62,8 @@ title: Client
 </script>
 <p>Main Class for the API Wrapper</p>
 
-```ts
-import { Client } from ' @mcserversoft/mcss-api';
+```js
+import { Client } from '@mcserversoft/mcss-api';
 ```
 
 <Expander id="constructor" title="Constructor" icon="lucide:box" expanded={true}>
